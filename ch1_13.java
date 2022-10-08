@@ -1,7 +1,5 @@
 // Nhu Tran
 
-package application_programming;
-
 public class ch1_13 {
     public static void main(String[] args) {
         double a = 3.4;

@@ -1,4 +1,4 @@
-package application_programming;
+// Nhu Tran
 
 import java.util.Scanner;
 

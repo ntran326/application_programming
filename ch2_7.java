@@ -1,7 +1,5 @@
 // Nhu Tran
 
-package application_programming;
-
 import java.util.Scanner;
 
 public class ch2_7 {

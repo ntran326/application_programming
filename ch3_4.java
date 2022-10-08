@@ -1,7 +1,5 @@
 // Nhu Tran
 
-package application_programming;
-
 public class ch3_4 {
 	public static void main(String[] args) {
 		int num = (int) (Math.random() * 12) + 1;

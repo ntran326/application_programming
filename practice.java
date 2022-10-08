@@ -1,4 +1,3 @@
-package application_programming;
 
 import java.util.Scanner;
 
