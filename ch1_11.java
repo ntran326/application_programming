@@ -27,5 +27,3 @@ public class ch1_11 {
 
    }
 }
-
-// test 2
