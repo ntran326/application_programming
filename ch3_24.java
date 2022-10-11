@@ -1,6 +1,7 @@
 // Nhu Tran
 
 public class ch3_24 {
+    
     public static void main(String[] args) {
         int rank = (int) ((Math.random() * 13) + 1);
         int suit = (int) (Math.random() * 4);
