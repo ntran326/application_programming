@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 // Nhu Tran
 
 import java.util.Scanner;
