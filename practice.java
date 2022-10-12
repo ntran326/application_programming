@@ -1,16 +1,25 @@
 
-import java.util.Scanner;
 
 public class practice {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+	public static void main(String[] args){
+        double tuition = 10000.0;
+        double yearlyIncreasePercentage = 0.05;
+        
+        double tuitionInTenYears = 0.0;
+        double fourYearsOfTuition = 0.0;
 
-        System.out.println("Enter a number for radius: ");
-        double radius = input.nextDouble();
+        for (int i = 0; i < 14; i++){
+            tuition += tuition * yearlyIncreasePercentage; 
+            
+            if (i == 9)
+                tuitionInTenYears = tuition;
 
-        double area = radius * radius * 3.14159;
+            if (i == 10 || i == 11| i == 12 || i == 13)
+                fourYearsOfTuition += tuition;
+        }
 
-        System.out.println("The area for the circle of radius " + radius + " is " + area);
-
+        System.out.printf("Tuition cost after 10 years is: $%.2f%n" + 
+            "Four years of tuition after 10 years is: $%.2f%n", 
+            tuitionInTenYears, fourYearsOfTuition);
     }
 }

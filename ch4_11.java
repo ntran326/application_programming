@@ -18,32 +18,32 @@ public class ch4_11 {
             remainder = decimal % 16;
 
             if (remainder == 10) {
-                System.out.print("The hex value is A");
+                System.out.println("The hex value is A");
 
             }
 
             else if (remainder == 11) {
-                System.out.print("The hex value is B");
+                System.out.println("The hex value is B");
 
             }
 
             else if (remainder == 12) {
-                System.out.print("The hex value is C");
+                System.out.println("The hex value is C");
 
             }
 
             else if (remainder == 13) {
-                System.out.print("The hex value is D");
+                System.out.println("The hex value is D");
 
             }
 
             else if (remainder == 14) {
-                System.out.print("The hex value is E");
+                System.out.println("The hex value is E");
 
             }
 
             else if (remainder == 15) {
-                System.out.print("The hex value is F");
+                System.out.println("The hex value is F");
 
             }
 
@@ -51,7 +51,7 @@ public class ch4_11 {
 
         else {
             System.out.println(decimal + " is an nvalid input");
-            
+
         }
     }
 }
