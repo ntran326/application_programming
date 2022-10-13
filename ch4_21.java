@@ -26,14 +26,11 @@ public class ch4_21 {
                 System.out.println(ssn + " is a valid social security number");
 
             else
-
                 System.out.println(ssn + " is an invalid social security number");
-
         }
 
         else {
             System.out.println(ssn + " is an invalid social security number");
-
         }
     }
 }

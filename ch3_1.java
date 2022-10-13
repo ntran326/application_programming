@@ -18,13 +18,16 @@ public class ch3_1 {
             double equat_1 = (-b + (Math.sqrt((b * b) - (4 * a * c)))) / (2 * a);
             double equat_2 = (-b - (Math.sqrt((b * b) - (4 * a * c)))) / (2 * a);
             System.out.println("The equation has two roots " + equat_1 + " and " + equat_2);
-        } else if (discriminant == 0) {
+        } 
+        
+        else if (discriminant == 0) {
             double equa_3 = (-b + (Math.sqrt((b * b) - (4 * a * c)))) / (2 * a);
             ;
             System.out.println("The equation has one root " + equa_3);
-        } else {
+        } 
+        
+        else {
             System.out.println("The equation has no real roots");
         }
     }
-
 }

@@ -22,5 +22,6 @@ public class ch2_19 {
         double area =  Math.pow(s * (s - side1) * (s - side2) * (s - side3), 0.5);
 
         System.out.println("The area of the triangle is " + area);
+        
     }
 }

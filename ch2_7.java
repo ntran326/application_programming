@@ -15,5 +15,6 @@ public class ch2_7 {
        int days = (minutes % 525600) / 1440;
 
        System.out.println(minutes + " minutes is approximately " + years + " and " + days + " days");
+       
     }
 }

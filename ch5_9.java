@@ -25,13 +25,11 @@ public class ch5_9 {
                 name2 = name1;
                 scoreHighest1 = score;
                 name1 = name;
-
             }
 
             else if (score > scoreHighest2) {
                 scoreHighest2 = score;
                 name2 = name;
-
             }
         }
 
@@ -39,6 +37,5 @@ public class ch5_9 {
             name1 + " with a score of " + scoreHighest1);
         System.out.println("The student with the second highest score is " + 
             name2 + " with a score of " + scoreHighest2);
-
     }
 }

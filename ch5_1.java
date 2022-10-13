@@ -17,20 +17,17 @@ public class ch5_1 {
             if (input > 0) {
                 pos++;
                 num++;
-
             }
 
             else if (input < 0) {
                 neg++;
                 num++;
-
             }
 
             total += input;
 
             if (input == 0) {
                 break;
-
             }
         }
 
@@ -41,12 +38,10 @@ public class ch5_1 {
             System.out.println("The number of negatives: " + neg);
             System.out.println("The total is: " + total);
             System.out.println("The average is: " + average);
-
         } 
         
         else {
-            System.out.println("No numbers are entered except 0");
-            
+            System.out.println("No numbers are entered except 0"); 
         }
     }
 }

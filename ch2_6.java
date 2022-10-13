@@ -18,5 +18,6 @@ public class ch2_6 {
         int sum = less10 + tens + hundreds;
 
         System.out.println("The sum of the digit is " + sum);
+        
     }
 }

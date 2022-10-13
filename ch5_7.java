@@ -14,12 +14,10 @@ public class ch5_7 {
 
             if (year == 10)
                 tuitionTenth = tuition;
-
         }
 
         System.out.println("Tuition in ten years: $" + tuitionTenth);
         System.out.println("Total cost for four years' worth of tuition" +
                 " after the tenth year: $" + totalCost);
-
     }
 }

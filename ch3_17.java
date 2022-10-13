@@ -21,7 +21,6 @@ public class ch3_17 {
                 break;
             case 2:
                 System.out.print("paper.");
-
         }
 
         System.out.print(" You are "); 
@@ -34,12 +33,10 @@ public class ch3_17 {
                 break;
             case 2:
                 System.out.print("paper.");
-
         }
 
         if (num == comp) {
             System.out.println(" It is a draw!");
-
         } 
         
         else {
@@ -49,15 +46,10 @@ public class ch3_17 {
 
             if (win) {
                 System.out.print(" You won!");
-
             } 
             else {
                 System.out.print(" You lost!");
-
             }
-
         }
-
     }
-
 }

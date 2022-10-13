@@ -16,11 +16,10 @@ public class ch3_12 {
 
         if (digit1 == digit3){
             System.out.println(number + " is Palindrome");
-
         }
+        
         else {
             System.out.println(number + " is not Palindrome");
-
         }
     }
 }

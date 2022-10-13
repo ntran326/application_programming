@@ -13,12 +13,10 @@ public class ch3_19 {
 
         if (e1 + e2 > e3 && e1 + e3 > e2 && e2 + e3 > e1) {
             System.out.print("The perimeter is " + (e1 + e2 + e3));
-
         } 
         
         else {
             System.out.print("The input is invalid");
-
         }
     }
 }

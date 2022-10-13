@@ -21,13 +21,11 @@ public class ch4_13 {
                     break;
                 default:
                     System.out.print(ch + " is a consonant");
-
             }
         }
 
         else {
             System.out.print(ch + " is an invalid input");
-
         }
     }
 }

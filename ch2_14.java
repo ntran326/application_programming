@@ -18,5 +18,6 @@ public class ch2_14{
         double bmi = weight / Math.pow(height, 2);
 
         System.out.println("BMI is " + bmi);
+        
     }
 }

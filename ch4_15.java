@@ -31,11 +31,10 @@ public class ch4_15 {
 			else if (ch >= 'a')
 				num = 2;
 			System.out.println("The corresponding number is " + num);
-
 		}
 
 		else
 			System.out.println(ch + " is an invalid input");
-            
+          
 	}
 }

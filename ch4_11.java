@@ -19,39 +19,31 @@ public class ch4_11 {
 
             if (remainder == 10) {
                 System.out.println("The hex value is A");
-
             }
 
             else if (remainder == 11) {
                 System.out.println("The hex value is B");
-
             }
 
             else if (remainder == 12) {
                 System.out.println("The hex value is C");
-
             }
 
             else if (remainder == 13) {
                 System.out.println("The hex value is D");
-
             }
 
             else if (remainder == 14) {
                 System.out.println("The hex value is E");
-
             }
 
             else if (remainder == 15) {
                 System.out.println("The hex value is F");
-
             }
-
         }
 
         else {
             System.out.println(decimal + " is an nvalid input");
-
         }
     }
 }

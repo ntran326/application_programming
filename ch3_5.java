@@ -41,19 +41,30 @@ public class ch3_5 {
 
         if (future_date == 0) {
             System.out.println("Today is " + day_of_week + " and the future day is Sunday");
-        } else if (future_date == 1) {
+        } 
+        
+        else if (future_date == 1) {
             System.out.println("Today is " + day_of_week + " and the future day is Monday");
-        } else if (future_date == 2) {
+        } 
+        
+        else if (future_date == 2) {
             System.out.println("Today is " + day_of_week + " and the future day is Tuesday");
-        } else if (future_date == 3) {
+        } 
+        
+        else if (future_date == 3) {
             System.out.println("Today is " + day_of_week + " and the future day is Wednesday");
-        } else if (future_date == 4) {
+        } 
+        
+        else if (future_date == 4) {
             System.out.println("Today is " + day_of_week + " and the future day is Thursday");
-        } else if (future_date == 5) {
+        } 
+        
+        else if (future_date == 5) {
             System.out.println("Today is " + day_of_week + " and the future day is Friday");
-        } else if (future_date == 6) {
+        } 
+        
+        else if (future_date == 6) {
             System.out.println("Today is " + day_of_week + " and the future day is Satuday");
         }
     }
-
 }

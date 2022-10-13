@@ -24,8 +24,6 @@ public class ch5_21 {
             System.out.printf("%-18.3f%-18.2f%-18.2f\n", annualInt, monthlyPay, totalPay);
 
             annualInt = annualInt + 1.0 / 8;
-
         }
-
     }
 }

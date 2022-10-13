@@ -20,5 +20,6 @@ public class ch2_8 {
 
         System.out.println("Current time is " + currentHour + ":" + currentMinute + ":" 
         + currentSecond); 
+        
     }
 }

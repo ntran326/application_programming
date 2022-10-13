@@ -6,10 +6,8 @@ public class ch5_24 {
  
         for (double i = 1; i <= 97; i += 2) {
             sum += i / (i + 2);
-
         }
 
         System.out.println("Sum of the series is: " + sum);
-
     }
 }

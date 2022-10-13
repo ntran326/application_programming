@@ -46,7 +46,6 @@ public class ch3_24 {
                 break;
             case 13:
                 System.out.print("King");
-
         }
 
         System.out.print(" of ");
@@ -62,8 +61,6 @@ public class ch3_24 {
                 break;
             case 3:
                 System.out.println("Spades");
-
         }
     }
-
 }
